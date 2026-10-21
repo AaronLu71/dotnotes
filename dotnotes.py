@@ -40,8 +40,7 @@ rich_text_dict = streamlit_lexical(value="initial value in **markdown**",
 
 st.markdown(rich_text_dict)
 
-## 'c:/users/l_yin/.spyder-py3/notebook.pkl'
-file_path = 'c:/users/l_yin/.spyder-py3/init notebook.pkl'
+file_path = 'init notebook.pkl'
 notebook = load_pickle(file_path)
 # st.write(notebook)
 
