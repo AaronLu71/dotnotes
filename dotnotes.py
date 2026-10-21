@@ -27,18 +27,18 @@ st.set_page_config(page_title="dotnotes", page_icon="📈", layout="wide")
 
 st.title(':white_circle: dotNotes')  #'dotNotes'
 
-from streamlit_lexical import streamlit_lexical
+#from streamlit_lexical import streamlit_lexical
 
-rich_text_dict = streamlit_lexical(value="initial value in **markdown**",
-                             placeholder="Enter some rich text", 
-                             height=800,
-                             debounce=500,
-                             key='1234', 
-                             on_change=None
-                            )
+#rich_text_dict = streamlit_lexical(value="initial value in **markdown**",
+#                             placeholder="Enter some rich text", 
+#                             height=800,
+#                             debounce=500,
+#                             key='1234', 
+#                             on_change=None
+#                            )
 
 
-st.markdown(rich_text_dict)
+#st.markdown(rich_text_dict)
 
 file_path = 'init notebook.pkl'
 notebook = load_pickle(file_path)
